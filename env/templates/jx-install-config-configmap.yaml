@@ -1,0 +1,35 @@
+apiVersion: v1
+data:
+  ca.crt: |
+    -----BEGIN CERTIFICATE-----
+    MIIDCzCCAfOgAwIBAgIQXjIlDo82pxC88QG/P8e1ODANBgkqhkiG9w0BAQsFADAv
+    MS0wKwYDVQQDEyQ5MTA5YzJmZS01YWRhLTQ2OTktYTM5Yi1lMTA5MTZiMjc2MTUw
+    HhcNMTkwNTExMTIwMzUyWhcNMjQwNTA5MTMwMzUyWjAvMS0wKwYDVQQDEyQ5MTA5
+    YzJmZS01YWRhLTQ2OTktYTM5Yi1lMTA5MTZiMjc2MTUwggEiMA0GCSqGSIb3DQEB
+    AQUAA4IBDwAwggEKAoIBAQD4VKFAM+xBHNkBq2NLpXOVs6B2QmNrpiNIFuz/LYzM
+    jOcLbqZJQ1KDpypYzDQkogfKrOGWzoK3Fm+gsgi67KeENj9EtseDYv6/ltO5w3Mu
+    hHSqha88nQJ2mLQEzbWb0OaYMTgY2cuHRLOX96kL3EylyakVEcq9bULN1T9fZcK8
+    ME+GrlPWCfUl7NOgbwB36U1dVekeVH4J+BQd7KRCJceRzqclSu7zVLPcqPrIYmfJ
+    X6v3tOJgqzdow1ib5B8HEhXEC2QyY8Ym56E/Nxyb871/goA/Zwd7I1tiG/W8Jxzd
+    5b9sNJqolbYNW35mAF1x2rSVFwwiQDllY3T2bOkB96tFAgMBAAGjIzAhMA4GA1Ud
+    DwEB/wQEAwICBDAPBgNVHRMBAf8EBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQDs
+    +1mD+cuZbP2XIgXweIP8yhxsBG566uTc9gC60mF3QUnDUDH24OSRTym4xDavf/Ip
+    GE5/h9f4kbqbmzfzx2bDgOUzzde6kXQBvjhY4mPxdKSpu5hbfOeKWDqdtXwtuoTh
+    v46hmGxiQZ7Aoh4ZiZdVUcnqaVupZSkzE+Kf+m8PehiNLw3BCtlRHhLNukKZrQwq
+    ecz/SBg6JlAkxSxAPGZNmAT2rffCVTuUoL4BXGzASkHdlLY/l8Q+Nho8KVvdEjQ2
+    kxUIxXv0r/Um/OL2lJ5LcAEzADBPFASo4eXwxR6DFvRhOZBvW1pwG29NgCiV5X0+
+    +6DI62aXs9uQYRl2Or1w
+    -----END CERTIFICATE-----
+  clusterName: owlfair
+  jx-install-version: 2.0.116
+  kubeProvider: gke
+  projectID: buoyant-airport-231116
+  region: ""
+  secretsLocation: vault
+  server: https://35.203.31.0
+  systemVaultName: jx-vault-owlfair
+  zone: northamerica-northeast1-a
+kind: ConfigMap
+metadata:
+  creationTimestamp: null
+  name: jx-install-config
